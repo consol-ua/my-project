@@ -50,7 +50,7 @@ export default {
       userName: localStorage.name,
       newItem: "",
       items: [],
-      editMode: Number,
+      editMode: Number
     };
   },
   created() {
@@ -77,8 +77,8 @@ export default {
       }
       this.items[index] = event.target.value;
       this.editMode = null;
-    },
-  },
+    }
+  }
 };
 </script>
 

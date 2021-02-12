@@ -37,7 +37,7 @@
 <script>
 const user = {
   login: "Admin",
-  password: "12345",
+  password: "12345"
 };
 
 export default {
@@ -48,7 +48,7 @@ export default {
       password: "",
       isShowPass: false,
       invalidData: false,
-      isLogin: false,
+      isLogin: false
     };
   },
   mounted() {
@@ -72,8 +72,8 @@ export default {
     clickLogout() {
       this.isLogin = localStorage.login = false;
       localStorage.name = "";
-    },
-  },
+    }
+  }
 };
 </script>
 

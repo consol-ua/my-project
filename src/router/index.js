@@ -6,19 +6,19 @@ const routes = [
   {
     path: "/",
     name: "Login",
-    component: Login,
+    component: Login
   },
   {
     path: "/todo",
     name: "Todo",
-    component: Todo,
-  },
+    component: Todo
+  }
 ];
 
 const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
   mode: "history",
-  routes,
+  routes
 });
 
 export default router;
