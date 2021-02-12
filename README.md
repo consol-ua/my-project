@@ -5,5 +5,5 @@
 #Для редактирования записей dbclick по записи
 #input реагируют на Enter
 
-## link **Forgot password?** feick
+## link `Forgot password?` feick
 
