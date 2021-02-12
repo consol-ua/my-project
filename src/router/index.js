@@ -1,22 +1,23 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from "../views/ToDo.vue";
+import Todo from "../views/ToDo.vue";
 import Login from "../views/Login.vue";
 
 const routes = [
-  {
-    path: "/todo",
-    name: "Home",
-    component: Home,
-  },
   {
     path: "/",
     name: "Login",
     component: Login,
   },
+  {
+    path: "/todo",
+    name: "Todo",
+    component: Todo,
+  },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory(process.env.BASE_URL),
+  mode: "history",
   routes,
 });
 
