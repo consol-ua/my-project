@@ -1,24 +1,9 @@
-# my-project
+#Форма входа принимает "фейковые" данные:
+  * username: Admin
+  * password: 12345
 
-## Project setup
-```
-npm install
-```
+#Для редактирования записей dbclick по записи
+#input реагируют на Enter
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## link **Forgot password?** feick
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
