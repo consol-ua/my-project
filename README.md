@@ -1,5 +1,5 @@
 # my-project
-https://codesandbox.io/s/o29j95wx9?file=/components/TodoList.vue:867-1041
+
 ## Project setup
 ```
 npm install
